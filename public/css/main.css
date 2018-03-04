@@ -1,0 +1,76 @@
+/*公用部分*/
+.comWidth{width:1270px;margin: 0px auto;}
+.fl{float: left;}
+.fr{float: right;}
+.clr{clear:both;}
+body{background: #ededed;}
+
+/*header部分*/
+.header{width: 100%;height:152px;}
+.top{height: 38px;background: #000033;position: relative;}
+.top .ul1{margin-left: 75px;float: left;width: 400px;}
+.top .ul2{margin-right: 350px;float: right;width: 230px;}
+.top li{display: inline-block;height: 38px;line-height: 38px;}
+.top li a{color:#ffffff;font-size: 13px;display: block;font-family: "微软雅黑";}
+.top li a:hover{text-decoration: underline;}
+.top .txt_search{width: 200px;height: 20px;position: absolute;right: 110px;top:9px;border-radius:0.1em; }
+.top .btn_search{width: 22px;height: 20px;position: absolute;right: 90px;top:9px;background: url(../images/btn.jpg);}
+.logo{height: 100px;height: 114px; position: relative;background: #ffffff;}
+.logo img{float: left;margin-top: 18px;margin-left: 12px; position: relative;}
+.logo p{position: absolute;left: 100px; width:400px; font-family: "微软雅黑";color: #00006a;font-weight: bold;}
+.logo .p1{margin-top: 35px;height: 33px;font-size: 25px;line-height: 33px;}
+.logo .p2{margin-top: 75px;height: 13px;font-size: 18px;line-height: 13px;}
+/*nav部分*/
+.nav{background: #00c899;z-index: 1000;}
+.nav .home{margin-top: 17px;margin-left: 10px;float: left;}
+.nav ul{margin-left: 78px;width: 1170px;height: 70px;}
+.nav li{display: inline-block;width: 13%;height: 70px;}
+.nav ul[class*="inner"]{width:200%;margin:0px;z-index: 1000;height: 148px;display: none;}
+.nav ul[class*="inner"] li{width:50%;height: 37px;line-height: 37px;float: left;background: rgba(37, 28, 28, 0.68);z-index: 1000;position: relative;border-bottom: 1px dotted #ffffff;}
+.nav ul[class*="inner"] li a{width: 100%;height: 37px;display: block;text-align: center;line-height: 37px;font-size: 14px;}
+.nav ul[class*="inner"] li a:hover{text-decoration: underline;}
+.nav a{display: block;line-height: 70px;color: #ffffff;font-size: 24px;text-align: center;}
+/*poster*/
+.poster img{display: block;width: 100%;z-index: 100;}
+.poster .p3{height: 70px;background: #00349a;text-align:center;color:#ffffff;line-height: 70px;font-size: 30px;}
+/*text*/
+.text{height: 600px;}
+/**/
+.link{float: left;width: 275px;height: 600px;background:#d1e6e1}
+.link .fast{height: 54px;line-height: 54px;text-align: center;font-size: 30px;background:#00c899; }
+.link .first{height: 103px;background: #d1e6e1;}
+.link .first img{margin-left: 112px;margin-top: 19px;}
+.link .first p{text-align: center;height: ;margin-top: 11px;font-size: 20px;}
+.link ul{height:384px;}
+.link li{display: inline-block;float: left; width: 49%;padding: 26px 0px; text-align: center;background:#d1e6e1;border-top: 1px dashed blue;}
+.link .left{border-right: 1px dashed blue; }
+.link li p{text-align: center;margin-top: 6px;}
+.link .more{text-align: center;background: #000032;width:125px;height: 22px;margin-top: 15px;margin-left: 76px;color: #ffffff;line-height: 22px;font-size: 20px;}
+/*新闻部分*/
+.news{float: left;width:691px;height: 600px;background: #ffffff;}
+.news .typeBar{height: 54px;background:#00c899; }
+.news .ul1 li{display: inline-block;width:120px;line-height: 54px;text-align: center;font-size: 20px;margin-left: 44px;}
+.news .ul1 li a{color: #ffffff;}
+.news .ul2{height: 320px;padding: 32px 0px;margin-left: 38px;}
+.news .ul2 li {margin-bottom: 22px;}
+.news .ul2 li a{font-size: 17px;margin-bottom: 25px;color: #000000;}
+.news .img{width: 49%;height: 143px;margin-bottom: 20px;}
+.news img{display: block;margin-left:35px; }
+.news .ll{border-right: 1px dashed #003399;}
+.news .img a{font-size: 17px;color: #000000;display: block;margin:5px 0px 0px 35px;}
+/*讨论部分*/
+.discuss{float: right;width: 304px;height: 600px;background: #d4d9e4;position: relative;}
+.discuss .hot{height: 54px;background: #002288;text-align: center;font-size: 30px;line-height: 54px;}
+/*.discuss .animation{position: relative; height: 350px;}*/
+.discuss .full{width: 204px;height: 300px;margin:40px auto auto 58px;overflow: hidden;position: relative;}
+.discuss ul{position: absolute; width:204px; background:  #d4d9e4;top:0px;}
+.discuss ul li{width:204px ;height:300px;}
+.discuss ul a{width: 204px;height: 50px;margin-bottom: 10px; display: block;}
+.discuss ul li a img{display: block;width:100%;height: 100%; }
+.discuss a{display: block;}
+img[src*="zhao"]{position:absolute;bottom: 0px;}
+/*foot部分*/
+.foot{height: 80px;background: #00b699;position: relative;margin-top: 38px;}
+.foot p{text-align: center;font-size: 10px;position: absolute;width: 100%;line-height: 14px;color: #ffffff;}
+.foot .p1{top: 20px;}
+.foot .p2{top: 40px;}
